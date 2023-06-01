@@ -5,6 +5,6 @@ return new Promise((res,rej)=>{
 })
 }
 
-name.then(res=>{
+name().then(res=>{
 	document.getElementById("output").innerText = res
 })
